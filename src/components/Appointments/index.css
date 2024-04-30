@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to top, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  background-color: #ffffff;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-appointments-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: #171f46;
+  margin-top: 64px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 28px;
+}
+.input {
+  width: 280px;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #758e85;
+  font-size: 14px;
+}
+.button {
+  background-color: #8b5cf6;
+  width: 50px;
+  color: #ffffff;
+  border-radius: 0px;
+}
+.hr-line {
+  border: 1px solid;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header-filter-container {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.filter-style {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+filter-empty {
+  background-color: #ffffff;
+  color: #9897f0;
+  border: 1px solid #9897f0;
+}
